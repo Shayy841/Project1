@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Poppins&display=swap');
+*
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+html
+{
+    font-size: 62.5%;
+}
+body
+{
+    font-family: "Inter", sans-serif;
+
+    font-weight: 300;
+    line-height:1.4 ;
+    scroll-behavior: smooth;
+}
+
+body
+{
+    font-size: 1.4rem;
+}
+
+ul
+{
+    list-style: none;
+}
+header
+{
+    background-color: rgb(253, 219, 249,0.7);
+    position: sticky;
+}
+
+/*Navbar*/
+nav
+{
+    padding: 0.8rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul 
+{
+    display: flex;
+    flex-direction: row;
+    gap: 2.1rem;
+}
+
+nav ul li
+{
+    font-size: 2rem;
+}
+
+nav ul li:hover 
+{
+    border-bottom: blueviolet 2px solid;
+}
+
+nav i 
+{
+    font-size: 30px;
+}
+
+main
+{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/*Hero Section*/
+
+
+#hero
+{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero_content h1
+{
+    font-size: 5rem;
+    line-height: 1.4;
+    font-weight: 800;
+}
+
+.hero_content h4
+{
+    font-size: 2.8rem;
+    font-weight: 300;
+}
+.hero_image img
+{
+    width: 250px;
+    border-radius: 10%;
+}
+
+ /* First card */
+
+ .f-card
+ {
+    display: flex;
+    margin: 2rem 1rem;
+    box-shadow: 0px 5px 4px purple;
+    align-items: center;
+    border: 1px solid #e2e2e2;
+    border-radius: 0.5%;
+    overflow: hidden;
+ }
+
+ .card_contents
+ {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+ }
+
+ .status
+ {
+    display: flex;
+    justify-content: space-between;
+
+ }
+
+.read-btn 
+{
+    all: unset;
+    font-weight: 800;
+    border-bottom: 1px solid transparent;
+
+}
+
+.read-btn:hover
+{
+    border-bottom: 1px solid #ccc;
+}
+ .f-card img
+ {
+    width: 200px; 
+ }
+
+
+ /* Card row */
+ .s-card
+ {
+    display: flex;
+    flex-direction: column-reverse;
+    max-width: 350px;
+    box-shadow: 0px 5px 4px purple;
+    align-items: center;
+    border: 1px solid #e2e2e2;
+    border-radius: 0.5%;
+    overflow: hidden;
+
+ }
+.card_container
+{
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+ .card-images
+ {
+    width: 210px;
+ }
+
+ .card_wrapper
+ {
+    align-items: center;
+    gap: 10rem;
+    justify-content: space-between;
+ }
+ /* Footer */
+ footer
+ {
+
+    background-color: rgb(253, 219, 249);
+    display: flex;
+    gap: 75rem;
+    padding: 1rem;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+ }
+ footer ul li
+ {
+    font-size: 1.rem;
+ }
+
+ footer ul
+ {
+    display: flex;
+    gap: 2rem;
+    align-items: right;
+ }
+
+
+ /* Blog Page */
+ .post
+ {
+    margin-top: 20px;
+    align-items: center !important;
+ }
+
+ .post h1
+ {
+    font-size: 3rem;
+ }
+
+ .banner-image img
+ {
+    margin-left: 35%;
+    width: 30%;
+ }
+ .post hr
+ {
+    margin: 3rem 0;
+ }
+ .about-author
+ {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+ }
+
+ article
+ {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-bottom: 2rem;
+ }
+
+ a
+ {
+    text-decoration: none;
+    color: black;
+}
